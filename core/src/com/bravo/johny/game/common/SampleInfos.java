@@ -7,6 +7,7 @@ import com.bravo.johny.game.GdxReflectionSample;
 import com.bravo.johny.game.InputListeningSample;
 import com.bravo.johny.game.InputPollingSample;
 import com.bravo.johny.game.OrthographicCameraSample;
+import com.bravo.johny.game.ShapeRendererSample;
 import com.bravo.johny.game.SpriteBatchSample;
 import com.bravo.johny.game.ViewPortSample;
 
@@ -26,7 +27,8 @@ public class SampleInfos {
             InputPollingSample.SAMPLE_INFO,
             OrthographicCameraSample.SAMPLE_INFO,
             ViewPortSample.SAMPLE_INFO,
-            SpriteBatchSample.SAMPLE_INFO
+            SpriteBatchSample.SAMPLE_INFO,
+            ShapeRendererSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {

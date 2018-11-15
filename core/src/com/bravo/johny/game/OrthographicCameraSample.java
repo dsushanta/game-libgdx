@@ -33,7 +33,6 @@ public class OrthographicCameraSample extends SampleBase{
         Gdx.app.setLogLevel(Application.LOG_DEBUG);
 
         camera = new OrthographicCamera();
-
         viewport = new FitViewport(WORLD_WIDTH, WORLD_HEIGHT, camera);
         batch = new SpriteBatch();
         texture = new Texture(Gdx.files.internal("raw/level-bg.png"));
