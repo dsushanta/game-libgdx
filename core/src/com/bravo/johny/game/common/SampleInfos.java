@@ -1,6 +1,8 @@
 package com.bravo.johny.game.common;
 
+import com.bravo.johny.game.ActionsSample;
 import com.bravo.johny.game.ApplicationListenerSampler;
+import com.bravo.johny.game.CustomActorsSample;
 import com.bravo.johny.game.GdxGeneratedSample;
 import com.bravo.johny.game.GdxModuleInfoSample;
 import com.bravo.johny.game.GdxReflectionSample;
@@ -8,7 +10,9 @@ import com.bravo.johny.game.InputListeningSample;
 import com.bravo.johny.game.InputPollingSample;
 import com.bravo.johny.game.OrthographicCameraSample;
 import com.bravo.johny.game.ShapeRendererSample;
+import com.bravo.johny.game.SkinSample;
 import com.bravo.johny.game.SpriteBatchSample;
+import com.bravo.johny.game.TableSample;
 import com.bravo.johny.game.ViewPortSample;
 
 import java.util.ArrayList;
@@ -28,7 +32,11 @@ public class SampleInfos {
             OrthographicCameraSample.SAMPLE_INFO,
             ViewPortSample.SAMPLE_INFO,
             SpriteBatchSample.SAMPLE_INFO,
-            ShapeRendererSample.SAMPLE_INFO
+            ShapeRendererSample.SAMPLE_INFO,
+            CustomActorsSample.SAMPLE_INFO,
+            ActionsSample.SAMPLE_INFO,
+            TableSample.SAMPLE_INFO,
+            SkinSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
